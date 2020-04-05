@@ -1,7 +1,7 @@
 # lokaler-kaufen-website
 This is the informational website of https://lokaler.kaufen. It is a static site rendered with [Hugo](https://gohugo.io).
 
-It uses a modified [fork](./theme/navigator-hugo/) of the navigator-hugo theme, [originally](https://themes.gohugo.io/navigator-hugo/) by theme-fisher.
+It uses a modified [fork](./themes/navigator-hugo/) of the navigator-hugo theme, [originally](https://themes.gohugo.io/navigator-hugo/) by theme-fisher.
 
 ## Development
 A good starting point is the `config.toml` file. Most of the text content is in the `data`-directory. Some titles and link names are in the `i18n` directory.
