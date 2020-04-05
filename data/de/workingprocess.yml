@@ -1,0 +1,38 @@
+enable  : true
+topTitle: WIE ES FUNKTIONIERT
+title   : So einfach funktioniert es
+subtitle: "lokaler.kaufen bringt lokale Läden und Kunden zusammen und regelt unkompliziert die Terminverinbarung für ein persönliches Beratungsgespräch. Die folgenden sechs Schritte zeigen, wie einfach das geht:"
+item    :
+  - number  : 1
+    icon    : tf-ion-android-create
+    title   : Laden anmelden
+    description : >
+      Als Ladenbesitzer registrieren Sie sich in 5 Minuten auf lokaler.kaufen. Nach einer kurzen Prüfung eurer Daten wird ihr Laden allen Kunden in eurer Umgebung angezeigt.
+
+  - number  : 2
+    icon    : tf-ion-android-time
+    title   : Termin vereinbaren
+    description : >
+      Zu Ihren Öffnungszeiten können Kunden Beratungstermine vereinbaren. Dazu wählen sie einen möglichen Zeitslot und hinterlegen ihre Kontaktdaten.
+
+  - number  : 3
+    icon    : tf-ion-ios-email-outline
+    title   : Email bekommen
+    description : >
+      Sie bekommen eine E-Mail mit der Terminvereinbarung. So werden Sie nicht in Ihren laufenden Kundengesprächen gestört und trotzdem über neue Termine informiert.
+
+  - number  : 4
+    icon    : tf-ion-chatbubbles
+    title   : Kunden beraten
+    description : >
+      Sie rufen den Kunden im vereinbarten Zeitslot per Videochat zurück und sprechen mit ihm genau wie im Laden. Den Verkauf haben Sie selbst in der Hand - egal ob Sie liefern oder verschicken.
+  - number  : 5
+    icon    : tf-ion-cash
+    title   : Bezahlung regeln
+    description : >
+      Entscheidet sich der Kunde zum Kauf, haben Sie die Bezahlung selbst in der Hand. Egal ob Sie einen Dienstleister wie Paypal einbinden wollen oder einfach auf Rechnung verkaufen - lokaler.kaufen macht Ihnen keine Vorgaben.
+  - number  : 6
+    icon    : tf-ion-android-share
+    title   : Ware zustellen
+    description : >
+      Auch wie Sie Ihre Ware zum Kunden bringen, liegt alleine bei Ihnen. Vielleicht wollen Sie lieber selber liefern, oder Sie verschicken Päckchen per Post. Sprechen Sie sich mit Ihren Kunden ab und wählen Sie die Lösung, die für Sie am besten passt.

@@ -1,0 +1,20 @@
+[customer]
+other = "Verbraucher"
+[merchant]
+other = "Ladenbesitzer"
+[development]
+other = "GitHub"
+[contact]
+other = "Kontakt"
+
+[imprint]
+other = "Impressum"
+[privacy]
+other = "Datenschutz"
+
+[devpost]
+other = "Devpost"
+[github]
+other = "GitHub"
+[qaware]
+other = "QAware"

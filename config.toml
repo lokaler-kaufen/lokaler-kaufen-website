@@ -1,0 +1,169 @@
+# This is the configuration for https://lokaler.kaufen
+#
+# We use a customized version of the navigator-hugo theme.
+# Since we built the site around this theme, it is directly embedded
+# instead of imported as a Git submodule.
+
+baseURL = "https://lokaler.kaufen/"
+languageCode = "de-de"
+title = "lokaler.kaufen | In 5 Minuten vom kleinen Laden zum Online Business"
+theme = "navigator-hugo"
+summaryLength = 10
+
+# Build robots.txt file
+enableRobotsTXT = true
+
+# google analytics tracking id
+googleAnalytics = "" # We don't use Google Analytics.
+
+enableGitInfo = false
+pygmentsCodeFences = true
+
+# Multilanguages Setup
+# Renders the default content language in subdir, e.g. /en/. The root directory / will redirect to /en/
+defaultContentLanguageInSubdir = false
+DefaultContentLanguage = "de" # Only German is supported at the moment.
+
+# Site Params
+[params]
+logo = "images/logo.png"
+footerImage = "images/wir_vs_virus_300px.png"
+footerLink = "https://wirvsvirushackathon.org/"
+
+# Meta Data
+author = "lokaler.kaufen"
+description = "lokaler.kaufen bringt kleine Läden mit dem zurück ins Spiel, was sie auszeichnet: Erstklassige, persönliche Beratung."
+
+[Languages.de]
+weight = 2
+languageCode = "de-de"
+title = "lokaler.kaufen | In 5 Minuten vom kleinen Laden zum Online Business"
+dateFormat = "2. January, 2006"
+
+home = "Home"
+logo = "images/logo.png"
+menufixed = false
+
+footerDescription = "lokaler.kaufen bringt kleine Läden mit dem zurück ins Spiel, was sie auszeichnet: Erstklassige, persönliche Beratung."
+footerServiceTitle = "Rechtliches"
+footerQuicklinkTitle = "Quicklinks"
+footerAboutTitle = "Über lokaler.kaufen"
+
+# Hero Area Section
+[Languages.de.params.hero]
+enable  = true
+heading = "Wir bringen kleine Läden zurück ins Spiel"
+
+# Customized to support safe HTML.
+description = "<p>Mit lokaler.kaufen können kleine Läden in 5 Minuten ein Onlinegeschäft eröffnen. Dabei beraten sie Kunden genau wie im Laden persönlich - per Videochat. Dafür braucht es auf beiden Seiten nicht mehr als ein Smartphone. So bekommt der Kunde im heimischen Wohnzimmer die gleiche gute Einkaufserfahrung wie vor Ort.</p> <p>lokaler.kaufen ist <b>non-profit</b> und für Kunden wie Händler <b>kostenlos</b>.</p>"
+
+button  = true
+btnText = "Hier geht es los"
+btnURL  = "https://app.lokaler.kaufen/"
+videoThumb = "images/slider/video-player-thumb.jpg"
+videoURL   = "https://www.youtube.com/embed/7ngTPbTKVWY"
+
+# About 2 Section
+[Languages.de.params.aboutSm]
+enable  = true
+title   = "Persönliche Betreuung und exzellente Beratung ist wertvoller denn je"
+description = "Die aktuelle Corona-Pandemie zwingt uns dazu, den persönlichen Kontakt zu unseren Mitmenschen zu minimieren. Das belastet uns alle, die wir zuhause auf ein Ende der Krise warten. Für viele Ladenbesitzer geht es dabei jedoch um die Existenz. Der kleine Laden um die Ecke bietet eigentlich genau das, was wir jetzt am meisten brauchen: Das persönliche Gespräch. Deshalb ist lokaler.kaufen ein echtes Win-Win Szenario für uns alle."
+
+# Blog Section On Homepage
+[Languages.de.params.blog]
+enable  = false
+topTitle= "OUR UNTOLD STORY"
+title   = "Blog."
+subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
+
+# Contact Section
+[Languages.de.params.contact]
+enable  = true
+topTitle= "Interessiert?"
+title   = "Sprechen Sie mit uns"
+subtitle= "Wir freuen uns darauf, von Ihnen zu hören. Feedback? Ideen?"
+address = "lokaler.kaufen<br>c/o QAware GmbH<br>Aschauer Str. 32<br>81549 Munich , Germany"
+email = "info@lokaler.kaufen"
+addressTitle = "Unsere Heimat"
+emailTitle = "Schreiben Sie uns"
+socialTitle = "Wir sind sozial"
+
+facebook= "https://www.facebook.com/lokalerkaufen/"
+twitter = "https://twitter.com/lokalerkaufen"
+linkedin= "https://de.linkedin.com/company/qaware-gmbh"
+#dribbble= "https://dribbble.com/"
+instagram= "https://www.instagram.com/lokaler.kaufen"
+
+# Call to Action Section on About Page
+[Languages.de.params.cta]
+enable  = false
+bg      = "images/call-to-action/call-to-action-bg-2.jpg"
+title   = "Let's Create Something Together"
+subtitle= "Proin gravida nibh vel velit auctor aliquet. Aenean sollicudin bibendum auctor, <br> nisi elit consequat ipsum, nesagittis sem nid elit. Duis sed odio sitain elit."
+btnText = "Contact Us"
+
+# This is our custom e-mail address collector.
+[Languages.de.params.signup]
+enable  = false
+bg      = "images/call-to-action/call-to-action-bg-2.jpg"
+title   = "Wir sind fast soweit!"
+subtitle= "Wir stehen kurz davor mit lokaler.kaufen loszulegen. Hinterlasse uns jetzt deine E-Mail-Adresse und du kannst sofort dabei sein, wenn es losgeht."
+successTitle = "Du bist dabei!"
+success = "Vielen Dank - wir informieren dich, sobald es losgeht."
+action = "https://www.formmonkey.io/submit/b91a797792d9441ece454707cfdb2c6b"
+buttonTitle = "Ich will dabei sein!"
+
+# We Used Themefisher Icon font for Icon, for more details check this github repository - https://github.com/themefisher/themefisher-font
+
+[Languages.de.params.notFound]
+title = "Seite nicht gefunden"
+message = "Entschuldigung, diese Seite können wir leider nicht finden."
+linkTitle = "Zur Startseite"
+
+# Site Menus
+[menu]
+# Navbar Menus
+#[[menu.nav]]
+#name    = "customer"
+#url     = "customer"
+#weight  = 2
+#[[menu.nav]]
+#name    = "merchant"
+#url     = "merchant"
+#weight  = 3
+[[menu.nav]]
+name    = "devpost"
+url     = "https://devpost.com/software/lokaler-kaufen"
+weight  = 2
+[[menu.nav]]
+name    = "development"
+url     = "https://www.github.com/qaware/wir-vs-virus"
+weight  = 3
+[[menu.nav]]
+name    = "contact"
+url     = "contact"
+weight  = 4
+
+# Footer Service Menu
+[[menu.service]]
+name    = "imprint"
+url     = "imprint"
+weight  = 1
+[[menu.service]]
+name    = "privacy"
+url     = "privacy"
+weight  = 2
+
+# Footer Quick links Menu
+[[menu.quicklink]]
+name    = "devpost"
+url     = "https://devpost.com/software/lokaler-kaufen"
+weight  = 1
+[[menu.quicklink]]
+name    = "github"
+url     = "https://github.com/qaware/wir-vs-virus"
+weight  = 2
+[[menu.quicklink]]
+name    = "qaware"
+url     = "https://www.qaware.de"
+weight  = 3

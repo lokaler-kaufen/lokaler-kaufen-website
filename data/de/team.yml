@@ -1,0 +1,75 @@
+enable  : true
+topTitle: Mit Herzblut dabei
+title   : Unser Team.
+subtitle: Beim WirVsVirus-Hackathon sind wir mit dem Wunsch gestartet, einen Beitrag zur Bewältigung der Corona-Krise zu leisten. In unserem Alltag erstellen wir bei QAware anspruchsvolle Softwarelösungen für die Allianz, BMW und die Deutsche Telekom. Software Engineering ist unser Beruf und unsere Leidenschaft - das zu einem guten Zweck einsetzen zu können hat uns sofort überzeugt.
+
+member  :
+  - image         : images/team/kelm_felix.jpg
+    name          : Felix Kelm
+    designation   : Backend Development
+    description   : >
+
+  - image         : images/team/wimmer_franz.jpg
+    name          : Franz Wimmer
+    designation   : Backend Development
+    description   : >
+
+  - image         : images/team/kammerer_moritz.jpg
+    name          : Moritz Kammerer
+    designation   : Backend Development
+    description   : >
+
+  - image         : images/team/fuchshuber_josef.jpg
+    name          : Josef Fuchshuber
+    designation   : Cloud Infrastructure / DevOps
+    description   : >
+
+  - image         : images/team/rohleder_michael.jpg
+    name          : Michael Rohleder
+    designation   : Community Management
+    description   : >
+
+  - image         : images/team/engel_florian.jpg
+    name          : Florian Engel
+    designation   : Product Management
+    description   : >
+
+  - image         : images/team/haas_dominik.jpg
+    name          : Dominik Haas
+    designation   : Frontend Development
+    description   : >
+
+  - image         : images/team/weber_lukas.jpg
+    name          : Lukas Weber
+    designation   : Frontend Development
+    description   : >
+
+  - image         : images/team/hummel_roland.jpg
+    name          : Roland Hummel
+    designation   : Frontend Development
+    description   : >
+
+  - image         : images/team/schweikl_uli.jpg
+    name          : Uli Schweikl
+    designation   : Frontend Development
+    description   : >
+
+  - image         : images/team/dashuber_veronika.jpg
+    name          : Veronika Dashuber
+    designation   : Frontend Development
+    description   : >
+
+  - image         : images/team/adersberger_josef.jpg
+    name          : Josef Adersberger
+    designation   : Project Support
+    description   : >
+
+  - image         : images/team/krauss_alexander.jpg
+    name          : Alexander Krauss
+    designation   : Project Support
+    description   : >
+   
+  - image         : images/team/halbritter_kathrin.jpg
+    name          : Kathrin Halbritter
+    designation   : Social Media
+    description   : >

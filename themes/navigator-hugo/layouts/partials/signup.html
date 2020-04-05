@@ -1,0 +1,28 @@
+{{ if .Site.Params.signup.enable }}
+{{ "<!-- Start Call To Action -->" | safeHTML }}
+<section class="signup section" style='background-image: url("{{ .Site.Params.cta.bg | absURL }}");'>
+    <div class="container">
+				{{ with .Site.Params.signup.title }}<h2>{{ . }}</h2>{{ end }}
+		<div class="row">
+			<div class="col-md-6 text-left">
+                {{ with .Site.Params.signup.subtitle }}<p>{{ . | safeHTML }}</p>{{ end }}
+			</div>
+			<div class="col-md-6">
+				<form class="subscribe-form" action="{{ .Site.Params.signup.action }}" method="POST">
+					<input type="hidden" name="_next" value="{{ .Site.baseURL }}/success/#banner">
+                        <div class="form-group">
+				<div class="row block">
+					<div class="col-sm-7 col-md-7 col-lg-7">
+						<input name="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email-Adresse" required>
+					</div>
+					<div class="col-sm-5 col-md-5 col-lg-5">
+						{{ with .Site.Params.signup.buttonTitle }}<button type="submit" class="btn btn-main-sm">{{ . }}</button>{{ end }}
+					</div>
+				</div>
+                        </div>
+                    </form>
+		</div>
+	</div>
+</section>
+{{ "<!-- Start Call To Action -->" | safeHTML }}
+{{ end }}

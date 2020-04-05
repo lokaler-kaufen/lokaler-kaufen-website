@@ -1,0 +1,18 @@
+{{ if .Site.Params.signup.enable }}
+{{ "<!-- Start Call To Action -->" | safeHTML }}
+<section class="signup section" style='background-image: url("{{ .Site.Params.cta.bg | absURL }}");'>
+	<span id="banner" class="anchor"></span>
+    <div class="container">
+				{{ with .Site.Params.signup.successTitle }}<h2>{{ . }}</h2>{{ end }}
+		<div class="row">
+			<div class="col-md-6 text-left">
+                {{ with .Site.Params.signup.success}}<p>{{ . | safeHTML }}</p>{{ end }}
+			</div>
+			<div class="col-md-6">
+                        </div>
+                    </form>
+		</div>
+	</div>
+</section>
+{{ "<!-- Start Call To Action -->" | safeHTML }}
+{{ end }}

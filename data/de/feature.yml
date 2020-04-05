@@ -1,0 +1,16 @@
+enable  : true
+item  :
+  - icon  : tf-ion-android-phone-portrait
+    title : Minimale Voraussetzungen
+    description : >
+            Ein Smartphone ist die einzige technische Voraussetzung für lokaler.kaufen. Kostenlose Videotelefonie-Apps wie Whatsapp, FaceTime oder Skype sind auf den meisten Geräten bereits installiert und einfach zu benutzen.
+
+  - icon  : tf-ion-android-stopwatch
+    title : Geringer Aufwand
+    description : >
+       Es kann sofort losgehen - kein umständliches Erfassen des Lagerbestands in einem Online-Shopsystem. Die Kunden sehen direkt, was im Laden ist.
+
+  - icon  : tf-ion-android-favorite
+    title : Langfristige Kundenbeziehung
+    description : >
+       Kunden von kleinen Läden wertschätzen die persönliche Beratung. Beste Voraussetzungen für neue und langfristige Kundenbeziehungen - auch nach Corona.
