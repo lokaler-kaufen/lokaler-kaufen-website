@@ -26,7 +26,10 @@ DefaultContentLanguage = "de" # Only German is supported at the moment.
 
 # Site Params
 [params]
-logo = "images/logo.png"
+logo = "images/logo.svg"
+logo_width = 350
+logo_height = 80
+
 footerImage = "images/wir_vs_virus_300px.png"
 footerLink = "https://wirvsvirushackathon.org/"
 
@@ -41,7 +44,6 @@ title = "lokaler.kaufen | In 5 Minuten vom kleinen Laden zum Online Business"
 dateFormat = "2. January, 2006"
 
 home = "Home"
-logo = "images/logo.png"
 menufixed = false
 
 footerDescription = "lokaler.kaufen bringt kleine Läden mit dem zurück ins Spiel, was sie auszeichnet: Erstklassige, persönliche Beratung."
