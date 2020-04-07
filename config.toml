@@ -139,7 +139,7 @@ url     = "https://devpost.com/software/lokaler-kaufen"
 weight  = 2
 [[menu.nav]]
 name    = "development"
-url     = "https://www.github.com/qaware/wir-vs-virus"
+url     = "https://www.github.com/lokaler-kaufen"
 weight  = 3
 [[menu.nav]]
 name    = "contact"
